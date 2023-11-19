@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site de Novartis Cosentyx MD à l’intention des professionnels de la santé</title>
+
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WR4CQQS');</script>
+    <!-- End Google Tag Manager -->
+
+  </head>
+
+  <body class="gate">
+      <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WR4CQQS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- start header section -->
+    <header class="welcome-header">
+      <div class="mobile-menu">
+        <div>
+          <i class="fas fa-times"></i>
+          <nav>
+            <ul>
+              <li><a href="home.html">Acceuil</a></li>
+              <li>
+                <a href="safty-information.html"
+                  >Renseignements importants sur l’innocuité</a
+                >
+              </li>
+              <li class="language-switcher"><a href="#">English</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <a href="home.html" class="logo">
+          <img src="assets/images/logo.png" alt="Logo" />
+        </a>
+        <img src="assets/images/skew-bars.png" alt="Bars" />
+        <div class="toggle-bar ms-auto">
+          <img class="d-lg-none" src="assets/images/menu-bars.png" alt="" />
+        </div>
+        <nav>
+          <ul>
+            <li class="language-switcher"><a href="#">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <section id="welcome-content" class="content-bg">
+      <div class="container text-center">
+        <h2>
+          BIENVENUE À <span>COSENTYX<sup>MD</sup></span> EN LIGNE POUR LES
+          PROFESSIONNELS DE LA SANTÉ
+        </h2>
+        <p>
+            Ressources et renseignements à l’intention des professionnels de la santé qui souhaitent prescrire COSENTYX<sup>MD</sup>. <br> Veuillez sélectionner votre province et entrer votre numéro de permis d’exercice :
+        </p>
+        <form action="home.html" class="province-licence">
+          <div class="row">
+            <div class="form-group col-md-6">
+              <small class="error-text error-province text-danger"
+                >* Province erronée</small
+              >
+              <br />
+              <select
+                id="select_province"
+                class="form-control"
+                style="width: 100%"
+              >
+                <option>Province</option>
+                <option value="BC">Colombie-Britannique</option>
+                <option value="AB">Alberta</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="MB">Manitoba</option>
+                <option value="ON">Ontario</option>
+                <option value="QC">Québec</option>
+                <option value="NS">Nouvelle-Écosse</option>
+                <option value="NB">Nouveau-Brunswick</option>
+                <option value="NL">Terre-Neuve-et-Labrador</option>
+                <option value="PI">Île-du-Prince-Édouard</option>
+                <option value="YT">Yukon</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <small class="error-text error-licence text-danger">
+                * NIP erroné
+              </small>
+              <br />
+              <input
+                type="text"
+                placeholder="Numéro de permis"
+                id="medical_license_number"
+                class="form-control"
+                style="width: 100%"
+              />
+            </div>
+            <div class="form-group col-md-12">
+              <input type="submit" value="ENTRER" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- start footer section -->
+    <footer class="welcome-footer">
+      <div class="footer-main">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-xl-6">
+                    <div class="fm-left d-flex align-items-center">
+                        <img src="assets/images/footer-left-logo.svg" alt="Footer Logo" />
+                        <div class="footer-content">
+                            <p>
+                                COSENTYX, SensoReady et XPOSE sont des marques déposées.
+                                <br />
+                                Monographie du produit offerte sur demande.<br />
+                                183804F <br />
+                                © Novartis Pharma Canada inc. février 2023.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <ul class="d-flex privacy-terms">
+                        <li>
+                            <a href="privacy-policy.html">Politique de confidentialité </a> |
+                            <a href="terms-of-use.html">Conditions d’utilisation </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-4">
+                    <div class="fm-right d-flex align-items-center justify-content-end">
+                        <img src="assets/images/footer-middle-logo.png" alt="" />
+                        <img src="assets/images/footer-right-logo.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- end footer section -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
